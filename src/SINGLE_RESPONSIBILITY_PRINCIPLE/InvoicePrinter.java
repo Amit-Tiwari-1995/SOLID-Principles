@@ -12,8 +12,6 @@ public class InvoicePrinter {
 		// print invoice
 	}
 
-	public void saveToDB() {
-		// save invoice to DB
-	}
+	
 
 }

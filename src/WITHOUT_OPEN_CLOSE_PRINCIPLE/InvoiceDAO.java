@@ -1,4 +1,4 @@
-package SINGLE_RESPONSIBILITY_PRINCIPLE;
+package WITHOUT_OPEN_CLOSE_PRINCIPLE;
 
 public class InvoiceDAO {
  
@@ -12,5 +12,12 @@ public class InvoiceDAO {
 	public void saveToDB() {
 		// save invoice to DB
 	}
+	
+	public void saveToFile()
+	{
+		// save invoice to FILE
+	}
+	
+   
 	
 }
